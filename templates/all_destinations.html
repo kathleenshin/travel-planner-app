@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block body %}
+  <h1>All Destinations</h1>
+
+  <ul>
+    {% for destination in destinations %}
+      <li>
+        <a href="/destinations/{{ destination.destination_id }}">
+          {{ destination.name }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock %}

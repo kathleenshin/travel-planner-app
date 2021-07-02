@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>Destinations</h2>
+<ul>
+    <li><a href="/destinations">View all destinations</a></li>
+</ul>
+
+<h2>Search Form</h2>
+
+<ul>
+    <li><a href="/search">Search for destinations</a></li>
+</ul>
+
+<!-- <ul>
+    <li><a href="/dropdown_search">Select a destination</a></li>
+</ul>     -->
+
+<h2>Create an account</h2>
+<form action="/user" method="POST">
+    <p>
+        Email <input type="text" name="email">
+    </p>
+
+    <p>
+        Password <input type="text" name="password">
+    </p>
+
+    <p>
+        First Name <input type="text" name="first_name">
+    </p>
+
+    <p>
+        Last Name <input type="text" name="last_name">
+    </p>
+
+    <p>
+        <input type="submit">
+    </p>
+</form>
+
+<h2>Log in to your account</h2>
+<form action="/login" method="POST">
+    <p>
+        Email <input type="text" name="email">
+    </p>
+
+    <p>
+        Password <input type="text" name="password">
+    </p>
+
+    <p>
+        <input type="submit">
+    </p>
+</form>
+
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<p>Destination Type: {{ destination.destination_type }}</p>
+<p>Average Overall Rating: {{ destination.average_overall_rating }}</p>
+<p>Name: {{ destination.name }}</p>
+<p>Population: {{ destination.population }}</p>
+<p>Latitude: {{ destination.latitude }}</p>
+<p>Longitude: {{ destination.longitude }}</p>
+<p>URL: <a href= {{ destination.url }}>Click Here!</a></p>
+
+
+{% endblock %}

@@ -1,0 +1,47 @@
+[
+    {
+        "destination_type": "city",
+        "average_overall_rating": 3,
+        "name": "New York, NY",
+        "population": "8175133",
+        "latitude": "40.742185",
+        "longitude": "-73.992602",
+        "url": "https://www.roadgoat.com/travel-guides/new-york-ny-usa"  
+    },
+    {
+        "destination_type": "city",
+        "average_overall_rating": 5,
+        "name": "Seattle, WA",
+        "population": "608660",
+        "latitude": "47.60621",
+        "longitude": "-122.33207",
+        "url": "https://www.roadgoat.com/travel-guides/seattle-wa-usa"  
+    },
+    {
+        "destination_type": "city",
+        "average_overall_rating": 3,
+        "name": "Portland, OR",
+        "population": "583776",
+        "latitude": "45.52345",
+        "longitude": "-122.67621",
+        "url": "https://www.roadgoat.com/travel-guides/portland-or-usa"  
+    },
+    {
+        "destination_type": "city",
+        "average_overall_rating": 5,
+        "name": "San Francisco, CA",
+        "population": "805235",
+        "latitude": "37.77493",
+        "longitude": "-122.41942",
+        "url": "https://www.roadgoat.com/travel-guides/san-francisco-ca-usa"  
+    },
+    {
+        "destination_type": "city",
+        "average_overall_rating": 2,
+        "name": "Dallas, TX",
+        "population": "1197816",
+        "latitude": "32.78306",
+        "longitude": "-96.80667",
+        "url": "https://www.roadgoat.com/travel-guides/dallas-tx-usa"  
+    }
+]
